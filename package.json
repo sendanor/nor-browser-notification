@@ -1,0 +1,37 @@
+{
+  "name": "nor-browser-notification",
+  "version": "0.1.0",
+  "description": "Simple browser notifications",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jshint": "jshint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sendanor/nor-browser-notification.git"
+  },
+  "keywords": [
+    "notification",
+    "browser",
+    "tab"
+  ],
+  "dependencies": {
+    "nor-debug"    : ">= 0.1.42 < 0.2.0",
+    "nor-is"       : ">= 0.1.14 < 0.2.0"
+  },
+  "peerDependencies": {
+    "jquery"       : ">= 1.11.1  < 2.0.0"
+  },
+  "devDependencies": {
+    "lint"         : "*",
+    "jshint"       : "*",
+    "mocha"        : "*"
+  },
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sendanor/nor-browser-notification/issues"
+  },
+  "homepage": "https://github.com/sendanor/nor-browser-notification"
+}
