@@ -1,6 +1,6 @@
 {
   "name": "nor-browser-notification",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Simple browser notifications",
   "main": "src/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "tab"
   ],
   "dependencies": {
-    "nor-debug"    : ">= 0.1.48 < 0.2.0",
+    "nor-debug"    : ">= 0.1.49 < 0.2.0",
     "nor-is"       : ">= 0.1.16 < 0.2.0"
   },
   "peerDependencies": {
